@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Search</title>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Job Search</h1>
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search jobs by any field..." />
+    <button onclick="searchJobs()">Search</button>
+  </div>
+
+  <div id="results"></div>
+
+<!-- Always visible recommendations section -->
+<div id="recommendations">
+  <h2>Recommended Jobs</h2>
+  <p id="recPlaceholder">No recommendations yet.</p>
+</div>
+
+
+</body>
+</html>
